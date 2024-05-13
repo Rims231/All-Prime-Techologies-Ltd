@@ -1,7 +1,12 @@
-﻿namespace All_Prime_Techologies_Ltd.Models
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace All_Prime_Techologies_Ltd.Models
 {
     public class Employee
     {
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; } = 0;
         public string FirstName { get; set; } = "King";
         public string MiddleName { get; set; } = "London";

@@ -1,9 +1,9 @@
-﻿using All_Prime_Techologies_Ltd.Models;
-
-namespace All_Prime_Techologies_Ltd.Dtos
+﻿namespace All_Prime_Techologies_Ltd.Dtos
 {
-    public class GetAllEmployees
+    public class GetAllEmployeesDtos
     {
+       
+
         public int Id { get; set; } = 0;
         public string FirstName { get; set; } = "King";
         public string MiddleName { get; set; } = "London";
